@@ -35,13 +35,15 @@
   flex-direction: column; }
   @media only screen and (orientation: landscape) {
     #about-me {
-      flex-direction: row; }
-      #about-me img {
-        width: 30vw; } }
+      flex-direction: row; } }
   #about-me img {
     display: block;
     width: 80vw;
     border-radius: 50%; }
+  @media only screen and (orientation: landscape) {
+    #about-me img {
+      width: 40vw;
+      height: auto !important; } }
   #about-me #attributes #title {
     font-size: 3rem;
     color: #273029;
@@ -63,13 +65,13 @@
     display: flex;
     justify-content: space-between;
     align-items: stretch;
-    margin: 2.5% 5% 2.5% 5%;
     overflow-y: auto; }
     #skills #checklists .framworks {
       flex-basis: 30%;
       margin: 1%;
       padding: 5%;
-      border-radius: 5%; }
+      border-radius: 5%;
+      min-width: 285px; }
       #skills #checklists .framworks #header {
         font-size: x-large;
         padding: 0 0 1em 0;
@@ -141,8 +143,7 @@
     color: whitesmoke; }
 
 #contact-me {
-  background-color: whitesmoke;
-  padding: 20vh 5%; }
+  background-color: whitesmoke; }
   #contact-me #heading {
     font-size: 3rem;
     color: #273029; }
