@@ -131,16 +131,26 @@
     background-repeat: no-repeat;
     background-size: 150%;
     color: whitesmoke; }
-  #projects #project-container #gan {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1515405295579-ba7b45403062?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60");
+  #projects #project-container #menu {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1574071318508-1cdbab80d002?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60");
     background-repeat: no-repeat;
-    background-size: 150%;
+    background-size: 300%;
     color: whitesmoke; }
+  #projects #project-container #gan {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1515405295579-ba7b45403062?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60");
+      background-repeat: no-repeat;
+      background-size: 250%;
+      color: whitesmoke; }
   #projects #project-container #astro {
     background-image: url("https://images.unsplash.com/photo-1520034475321-cbe63696469a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60");
     background-repeat: no-repeat;
-    background-size: 250%;
+    background-size: 350%;
     color: whitesmoke; }
+  #projects #project-container #landing {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1587380899631-a767a4a1611e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60");
+      background-repeat: no-repeat;
+      background-size: 300%;
+      color: whitesmoke; }
 
 #contact-me {
   background-color: whitesmoke; }
