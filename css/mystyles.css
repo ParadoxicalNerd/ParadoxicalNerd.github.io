@@ -1,107 +1,137 @@
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+        "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
 
 .full-page {
-  padding: 5%; }
+    padding: 5%;
+}
 
 .highlight {
-  color: teal; }
+    color: teal;
+}
 
 #landing-page {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  background-color: whitesmoke; }
-  #landing-page #main-title {
-    font-size: 5em; }
-  #landing-page #secondary-title {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: whitesmoke;
+}
+#landing-page #main-title {
+    font-size: 5em;
+}
+#landing-page #secondary-title {
     font-size: 3em;
-    font-weight: lighter; }
-  @media only screen and (min-width: 500px) {
+    font-weight: lighter;
+}
+@media only screen and (min-width: 500px) {
     #landing-page #main-title {
-      font-size: 6em; }
+        font-size: 6em;
+    }
     #landing-page #secondary-title {
-      font-size: 4em;
-      font-weight: lighter; } }
+        font-size: 4em;
+        font-weight: lighter;
+    }
+}
 
 #about-me {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: column; }
-  @media only screen and (orientation: landscape) {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+@media only screen and (orientation: landscape) {
     #about-me {
-      flex-direction: row; } }
-  #about-me img {
+        flex-direction: row;
+    }
+}
+#about-me img {
     display: block;
     width: 80vw;
-    border-radius: 50%; }
-  @media only screen and (orientation: landscape) {
+    border-radius: 50%;
+}
+@media only screen and (orientation: landscape) {
     #about-me img {
-      width: 40vw;
-      height: auto !important; } }
-  #about-me #attributes #title {
+        width: 40vw;
+        height: auto !important;
+    }
+}
+#about-me #attributes #title {
     font-size: 3rem;
     color: #273029;
-    margin: 2.5% 5% 2.5% 5%; }
-  #about-me #attributes #list {
+    margin: 2.5% 5% 2.5% 5%;
+}
+#about-me #attributes #list {
     font-size: 1.5rem;
     margin: 2.5% 5% 2.5% 5%;
     color: #7a7a7a;
     font-weight: 300;
-    line-height: 1.75; }
+    line-height: 1.75;
+}
 
 #skills {
-  background-color: whitesmoke; }
-  #skills #heading {
+    background-color: whitesmoke;
+}
+#skills #heading {
     font-size: 3rem;
     color: #273029;
-    padding: 1rem; }
-  #skills #checklists {
+    padding: 1rem;
+}
+#skills #checklists {
     display: flex;
     justify-content: space-between;
     align-items: stretch;
-    overflow-y: auto; }
-    #skills #checklists .framworks {
-      flex-basis: 30%;
-      margin: 1%;
-      padding: 5%;
-      border-radius: 5%;
-      min-width: 285px; }
-      #skills #checklists .framworks #header {
-        font-size: x-large;
-        padding: 0 0 1em 0;
-        font-weight: 400; }
-      #skills #checklists .framworks ul {
-        list-style-type: circle;
-        list-style-position: inside;
-        font-weight: 300;
-        color: black; }
-        #skills #checklists .framworks ul li {
-          padding: 0 0 0.75em 0; }
-    #skills #checklists #web {
-      background-color: rgba(240, 189, 82, 0.25); }
-    #skills #checklists #ml {
-      background-color: rgba(0, 128, 128, 0.1); }
-    #skills #checklists #oth {
-      background-color: rgba(243, 195, 183, 0.5); }
+    overflow-y: auto;
+}
+#skills #checklists .framworks {
+    flex-basis: 30%;
+    margin: 1%;
+    padding: 5%;
+    border-radius: 5%;
+    min-width: 285px;
+}
+#skills #checklists .framworks #header {
+    font-size: x-large;
+    padding: 0 0 1em 0;
+    font-weight: 400;
+}
+#skills #checklists .framworks ul {
+    list-style-type: circle;
+    list-style-position: inside;
+    font-weight: 300;
+    color: black;
+}
+#skills #checklists .framworks ul li {
+    padding: 0 0 0.75em 0;
+}
+#skills #checklists #web {
+    background-color: rgba(240, 189, 82, 0.25);
+}
+#skills #checklists #ml {
+    background-color: rgba(0, 128, 128, 0.1);
+}
+#skills #checklists #oth {
+    background-color: rgba(243, 195, 183, 0.5);
+}
 
 #projects #heading {
-  font-size: 3rem;
-  color: #273029;
-  padding: 1rem; }
+    font-size: 3rem;
+    color: #273029;
+    padding: 1rem;
+}
 
 #projects #project-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: stretch;
-  overflow-x: auto;
-  max-height: 60vh; }
-  #projects #project-container .project {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    overflow-x: auto;
+    max-height: 60vh;
+}
+#projects #project-container .project {
     flex-basis: 30%;
     min-width: 285px;
     margin: 1%;
@@ -109,55 +139,71 @@
     border-radius: 5%;
     display: flex;
     justify-content: space-between;
-    flex-direction: column; }
-    #projects #project-container .project .title {
-      font-size: x-large; }
-    #projects #project-container .project .subtitle {
-      font-size: large;
-      padding: 5vh 0; }
-    #projects #project-container .project button {
-      background-color: white;
-      border-width: 0;
-      border-radius: 5px;
-      padding: 5px; }
-      #projects #project-container .project button a {
-        color: black;
-        font-weight: bolder;
-        font-size: large;
-        text-decoration: none;
-        padding-bottom: 0.2em; }
-  #projects #project-container #weather-app {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("https://images.unsplash.com/photo-1566883976389-e5ee50705afd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60");
+    flex-direction: column;
+}
+#projects #project-container .project .title {
+    font-size: x-large;
+}
+#projects #project-container .project .subtitle {
+    font-size: large;
+    padding: 5vh 0;
+}
+#projects #project-container .project button {
+    background-color: white;
+    border-width: 0;
+    border-radius: 5px;
+    padding: 5px;
+}
+#projects #project-container .project button a {
+    color: black;
+    font-weight: bolder;
+    font-size: large;
+    text-decoration: none;
+    padding-bottom: 0.2em;
+}
+#projects #project-container #weather-app {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+        url("https://images.unsplash.com/photo-1566883976389-e5ee50705afd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60");
     background-repeat: no-repeat;
     background-size: 150%;
-    color: whitesmoke; }
-  #projects #project-container #menu {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1574071318508-1cdbab80d002?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60");
+    color: whitesmoke;
+}
+#projects #project-container #menu {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("https://images.unsplash.com/photo-1574071318508-1cdbab80d002?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60");
     background-repeat: no-repeat;
     background-size: 300%;
-    color: whitesmoke; }
-  #projects #project-container #gan {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1515405295579-ba7b45403062?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60");
-      background-repeat: no-repeat;
-      background-size: 250%;
-      color: whitesmoke; }
-  #projects #project-container #astro {
+    color: whitesmoke;
+}
+#projects #project-container #gan {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("https://images.unsplash.com/photo-1515405295579-ba7b45403062?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60");
+    background-repeat: no-repeat;
+    background-size: 250%;
+    color: whitesmoke;
+}
+#projects #project-container #astro {
     background-image: url("https://images.unsplash.com/photo-1520034475321-cbe63696469a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60");
     background-repeat: no-repeat;
     background-size: 350%;
-    color: whitesmoke; }
-  #projects #project-container #landing {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1587380899631-a767a4a1611e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60");
-      background-repeat: no-repeat;
-      background-size: 300%;
-      color: whitesmoke; }
+    color: whitesmoke;
+}
+#projects #project-container #landing {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("https://images.unsplash.com/photo-1587380899631-a767a4a1611e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60");
+    background-repeat: no-repeat;
+    background-size: 300%;
+    color: whitesmoke;
+}
 
 #contact-me {
-  background-color: whitesmoke; }
-  #contact-me #heading {
+    background-color: whitesmoke;
+}
+#contact-me #heading {
     font-size: 3rem;
-    color: #273029; }
-  #contact-me a {
+    color: #273029;
+}
+#contact-me a {
     display: inline-block;
     padding-top: 3em;
     color: black;
@@ -166,6 +212,8 @@
     text-decoration: none;
     padding-bottom: 0.2em;
     border-bottom: none;
-    transition: .1s; }
-  #contact-me a:hover {
-    border-bottom: 1.5px solid black; }
+    transition: 0.1s;
+}
+#contact-me a:hover {
+    border-bottom: 1.5px solid black;
+}
